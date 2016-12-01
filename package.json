@@ -1,0 +1,47 @@
+{
+    "author": "Thomas Neptune",
+    "dependencies": {},
+    "keywords": [],
+    "name": "star-fox-watch-face",
+    "pebble": {
+        "displayName": "Star Fox Watch Face",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/sfwf_aplite_fixedMountains.png",
+                    "name": "IMAGE_BG",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/foxIcon.png",
+                    "menuIcon": true,
+                    "name": "FOX_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/digital-7.ttf",
+                    "name": "DIGITAL_12",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/digital-7.ttf",
+                    "name": "DIGITAL_24",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "7c033f1b-aec4-4948-9054-9305a022a6cb",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.2.0"
+}
